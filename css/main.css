@@ -1,0 +1,27 @@
+body {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised; }
+
+.row-no-gutter {
+  margin-right: 0;
+  margin-left: 0; }
+  .row-no-gutter [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+.noPadding {
+  padding: 0; }
+
+h2, p {
+  padding: 0;
+  margin: 0; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */

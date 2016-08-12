@@ -24,6 +24,22 @@
     .telContainer {
         text-align: center;
     }
+
+    .mainTitle {
+        margin-top: 135px;
+    }
+
+    .mainTitle h1 {
+        font-size: 42px;
+    }
+    .titlePrice {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .mainPriceForm {
+        margin-bottom: 130px;
+    }
 }
 
 
@@ -51,6 +67,11 @@
         font-size: 12px;
         font-weight: 500;
     }
+
+    .mainTitle h1 {
+        font-size: 28px;
+    }
+
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -72,6 +93,33 @@
         padding-bottom: 7px;
     }
 
+    .mainForm button {
+        margin-top: 20px;
+    }
+
+    .mainTitle h1 {
+        font-size: 21px;
+        letter-spacing: -0.5px;
+    }
+    .titlePrice {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .mainPriceForm {
+        margin-bottom: 130px;
+    }
+    .mainFormBox {
+        margin-top: 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .form-group input {
+        margin-right: 0;
+    }
+
+
 }
 
 @media only screen and (max-width : 400px) {
@@ -89,6 +137,28 @@
     }
     .logoContainer {
         padding-top: 0;
+    }
+
+    .mainTitle h1 {
+        font-size: 18px;
+        letter-spacing: -0.5px;
+    }
+
+    .form-group input {
+        margin-top: 10px;
+    }
+
+    .mainForm button {
+        background: #4267b2 none repeat scroll 0 0;
+        border: medium none transparent;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-top: 20px;
+        padding: 1px 30px;
+        text-transform: uppercase;
     }
 }
 

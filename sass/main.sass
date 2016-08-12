@@ -8,22 +8,55 @@ body
 	min-width: 320px
 	position: relative
 	line-height: 1.6
-	-webkit-font-smoothing: antialised
+	-webkit-font-smoothing: antialiased
 
 .row-no-gutter
 	margin-right: 0
 	margin-left: 0
-
 	[class*="col-"]
 		padding-right: 0
 		padding-left: 0
 
 .noPadding
 	padding: 0
-h2, p
+
+h1, h2, h3, p
 	padding: 0
 	margin: 0
+
+ol, ul
+	list-style: none
 
 .hidden
 	display: none
 
+.mainHead
+	background: #101119
+	color: #fff
+	padding-top: 15px
+	padding-bottom: 15px
+
+.navMenuHead
+	padding-top: 5px
+	padding-left: 15px
+	ul
+		li
+			display: inline-block
+			padding-right: 27px
+		a
+			text-decoration: none
+			color: #fff
+			font-size: 15px
+			font-weight: 500
+			&:hover
+				color: #4267b2
+
+
+.logoContainer
+	padding-top: 5px
+
+.telContainer
+	font-size: 18px
+	font-weight: 500
+	line-height: 1.3
+	text-align: right

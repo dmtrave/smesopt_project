@@ -9,6 +9,35 @@
         padding-right: 19px;
     }
 
+    .forUs {
+        margin-top: 120px;
+        background-size: 50%;
+    }
+
+    .rightBoxForUs {
+        padding-left: 70px;
+    }
+
+    .titleForUS h2 {
+        padding-bottom: 24px;
+        font-size: 21px;
+    }
+    .liftItemForUs {
+        padding-bottom: 72px;
+    }
+    .titleIconForUs {
+        font-size: 13px;
+    }
+
+    .liftItemForUs p {
+        font-size: 12px;
+        padding-top: 7px;
+        padding-left: 10px;
+    }
+
+    .liftItemForUs span {
+        padding-left: 10px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -39,6 +68,30 @@
 
     .mainPriceForm {
         margin-bottom: 130px;
+    }
+
+    .forUs {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        background-image: none;
+        text-align: center;
+    }
+
+    .titleForUS h2 {
+        padding-bottom: 50px;
+        font-size: 21px;
+    }
+
+    .liftItemForUs {
+        padding-bottom: 26px;
+    }
+
+    .liftItemForUs img {
+        padding-bottom: 10px;
+    }
+
+    .rightBoxForUs {
+        padding-left: 0;
     }
 }
 
@@ -71,6 +124,7 @@
     .mainTitle h1 {
         font-size: 28px;
     }
+
 
 }
 /* Extra Small Devices, Phones */
@@ -117,6 +171,14 @@
 
     .form-group input {
         margin-right: 0;
+    }
+
+    .titleForUS h2 {
+        color: #3b3b3b;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1.6;
+        padding-bottom: 20px;
     }
 
 

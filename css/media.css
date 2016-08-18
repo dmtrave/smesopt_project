@@ -38,6 +38,18 @@
     .liftItemForUs span {
         padding-left: 10px;
     }
+
+    .bracketAction2Form {
+        left: -61px;
+    }
+
+    .titleAction2Form {
+        margin-right: 58px;
+    }
+
+    .boxAction2 {
+        width: 960px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -97,6 +109,67 @@
     .boxProductPadding {
         margin-top: 30px;
     }
+
+    .specAction {
+        background: #e8e8e8 none repeat scroll 0 0;
+        margin-top: 115px;
+        text-align: center;
+    }
+
+    .paddingSpecAction {
+        color: #3b3b3b;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .boxAction2 {
+        background-image: url("../img/bgOpacityBox2.png");
+        background-repeat: no-repeat;
+        top: -350px;
+        width: 754px;
+    }
+
+    .titleActon2 p {
+        font-size: 21px;
+    }
+    .procentAction2 p {
+        font-size: 65px;
+    }
+
+    .specAction2 p {
+        font-size: 21px;
+    }
+
+    .titleActon2 {
+        margin-right: 60px;
+    }
+
+    .procentAction2 {
+        margin-right: 57px;
+    }
+
+    .specAction2 {
+        margin-right: 60px;
+    }
+
+    .logoBarabe {
+        margin-right: 60px;
+    }
+
+    .titleAction2Form {
+        margin-right: 52px;
+        font-size: 21px;
+        margin-top: 148px;
+    }
+
+    .Action2FormBox {
+        margin-left: 43px;
+    }
+
+    .bracketAction2Form {
+        left: -50px;
+        top: 172px;
+    }
 }
 
 
@@ -129,6 +202,63 @@
         font-size: 28px;
     }
 
+    .boxAction2 {
+        display: none;
+    }
+
+    .titleActon2 {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 39px;
+    }
+    .procentAction2 {
+        margin-right: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .specAction2 {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .logoBarabe {
+        margin-right: 0;
+        text-align: center;
+    }
+    .titleActon2 p {
+        font-size: 18px;
+    }
+    .procentAction2 p {
+        font-size: 55px;
+    }
+
+    .titleAction2Form {
+        font-size: 20px;
+        margin-top: 26px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .Action2FormBox {
+        display: inline-flex;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .Action2Form .form-group input {
+        background-color: #fff;
+        border: medium none transparent;
+        border-radius: 2px;
+        display: block;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 36px;
+        margin-right: 0;
+        margin-top: 10px;
+        padding-right: 64px;
+        text-indent: 47px;
+    }
 
 }
 /* Extra Small Devices, Phones */
@@ -189,7 +319,28 @@
 }
 
 @media only screen and (max-width : 400px) {
+    .priceSpecAction p {
+        font-size: 16px;
+    }
 
+    .priceSpecAction p br {
+        display: none;
+    }
+
+    .oldPrice p {
+        font-size: 36px;
+        padding-top: 10px;
+    }
+
+    .oldPrice span {
+        font-size: 48px;
+        padding-left: 7px;
+    }
+
+    .timerSpecAction {
+        display: none;
+
+    }
 }
 
 /* Custom, iPhone Retina */
